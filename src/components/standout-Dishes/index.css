@@ -1,0 +1,85 @@
+.card {
+
+    border: none;
+    border-radius: 15px;
+    border-radius: 40px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden; 
+    text-align: center;
+}
+
+.card img {
+    width: 60%; 
+    height: auto; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.price {
+    color: #ff6b6b;
+    font-weight: bold;
+}
+
+.rating {
+    color: #ffc107;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #00c853;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.special-dishes {
+    color: #e74c3c;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.standout-dishes {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.carousel-controls .btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.carousel-controls .btn-prev {
+    background-color: #f0f0f0;
+    color: #333;
+    margin-right: 10px;
+}
+
+.carousel-controls .btn-next {
+    background-color: #28a745;
+    color: #fff;
+}

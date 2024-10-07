@@ -1,0 +1,67 @@
+.section-titles {
+    color: #ff6b6b;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.main-title {
+    color: #000;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    font-weight: 700;
+}
+
+.description {
+    color:#555555 ;
+  
+    font-size: 16px;
+    text-align: left;
+    font-weight: 500;
+}
+
+.explore-btn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    text-align: left; 
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    height: 100%;
+}
+.service-card i {
+    font-size: 36px;
+    color: #28a745;
+}
+.service-title {
+    color: #28a745;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.service-description {
+    color: #6c757d;
+    font-size: 14px;
+}
+@media (max-width: 767.98px) {
+    .explore-btn {
+        margin-bottom: 20px;
+    }
+}

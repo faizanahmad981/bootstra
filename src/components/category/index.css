@@ -1,0 +1,37 @@
+.category-card {
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+.category-card img {
+    border-radius: 50%;
+    background-color: #d4f8e8;
+    padding: 20px;
+    width: 80px;
+    height: 80px;
+}
+.category-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.category-subtitle {
+    color: gray;
+    font-size: 14px;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.section-title h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.section-title p {
+    color: #e74c3c;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
