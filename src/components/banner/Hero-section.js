@@ -17,7 +17,7 @@ const HeroSection = () => {
       <p>
         Where Each Plate Weaves a Story of Culinary<br/> Mastery and Passionate Craftsmanship
       </p>
-      <div className="hero-buttons">
+     {/*  <div className="hero-buttons">
         <button className="btn btn-primary">
           Order Now
         </button>
@@ -26,14 +26,22 @@ const HeroSection = () => {
       <FontAwesomeIcon icon={faPlay} />
       </div>
      </div>
-      {/*   <button className="btn btn-secondary">
-          Watch Video
-          <div className="circleplay">
-             <FontAwesomeIcon  width={'20px'} icon={faPlay} className=" ml-2" /></div>
-         
-        </button> */}
+   
         
+      </div> */}
+         <div className="container text-center my-5">
+      <div className="d-flex justify-content-start gap-3 flex-wrap">
+        {/* Order Now Button */}
+        <button className="btn btn-primary btn-lg px-4 py-2" type="button">
+          Order Now
+        </button>
+
+        {/* Watch Video Button with Watch Icon */}
+        <button className="btn btn-outline-secondary btn-lg px-4 py-2" type="button">
+        <FontAwesomeIcon icon={faPlay} /> Watch Video
+        </button>
       </div>
+    </div>
     </div>
     <div className="hero-image">
       <img

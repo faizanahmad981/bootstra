@@ -26,8 +26,11 @@
     font-weight: 500;
 }
 
-.explore-btn {
-    background-color: #28a745;
+
+.btn-primarys{
+    background-color: #39DB4A !important;
+    border: 2px solid #39DB4A;
+    text-align: left; 
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -36,8 +39,7 @@
     margin-top: 20px;
     display: block;
     text-align: left; 
-}
-
+  }
 .service-card {
     background-color: #fff;
     border-radius: 10px;

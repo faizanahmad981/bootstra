@@ -14,7 +14,10 @@ const Services = () => {
     <p className="description">Rooted in passion, we curate unforgettable dining<br/> 
      experiences and offer exceptional services,<br/> 
       blending culinary artistry with warm hospitality.</p>
-    <button className="explore-btn">Explore</button>
+  
+    <button className="btn btn-primarys btn-lg px-4 py-2" type="button">
+       Explore
+        </button>
 </div>
 
             <div className="col-md-6">
