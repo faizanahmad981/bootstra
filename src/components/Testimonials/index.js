@@ -46,9 +46,10 @@ const Testimonials = () => {
          </span>
          <div className="rating">
          <FontAwesomeIcon icon={faStar} />
-          <span>
-           4.9 (18.6k Reviews)
-          </span>
+         <FontAwesomeIcon icon={faStar} />
+         <FontAwesomeIcon icon={faStar} />
+         <FontAwesomeIcon icon={faStar} />
+         <FontAwesomeIcon icon={faStar} />
          </div>
         </div>
        </div>
