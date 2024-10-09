@@ -17,18 +17,7 @@ const HeroSection = () => {
       <p>
         Where Each Plate Weaves a Story of Culinary<br/> Mastery and Passionate Craftsmanship
       </p>
-     {/*  <div className="hero-buttons">
-        <button className="btn btn-primary">
-          Order Now
-        </button>
-        <div className="watch-video">Watch Video 
-      <div className='playcircle' >
-      <FontAwesomeIcon icon={faPlay} />
-      </div>
-     </div>
-   
-        
-      </div> */}
+    
       <div className="container text-center my-5">
   <div className="d-flex justify-content-start gap-3 flex-wrap">
     <button className="btn btn-primary custom-btn" type="button">
@@ -41,7 +30,6 @@ const HeroSection = () => {
   </div>
 </div>
 
-        
     </div>
     <div className="hero-image">
       <img
